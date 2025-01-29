@@ -1,0 +1,21 @@
+{
+  "name": "cybernetic-controls-qa-task",
+  "version": "1.0.0",
+  "description": "The task is to verify the endpoints provided in the specification link by writing as many relevant test cases as you can in Gherkin format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "cypress": "^14.0.1",
+    "esbuild": "^0.24.2",
+    "webpack": "^5.97.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.0"
+  }
+}
